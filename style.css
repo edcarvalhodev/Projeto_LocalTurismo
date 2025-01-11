@@ -7,8 +7,13 @@
   font-family: "Open Sans", serif;
 }
 
-#page {
+body {
   box-sizing: border-box;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#page {
   width: 1120px;
   margin: 88px auto 0;
 }
@@ -68,7 +73,7 @@ h2 {
 }
 
 ol {
-  margin-bottom: 40px;
+  margin-bottom: 40px;  
 }
 
 ol img {
@@ -97,4 +102,8 @@ footer {
   color: #333333;
   margin: 65px 0 48px;
   text-align: center;
+}
+
+li {
+  margin-left: 40px;
 }
